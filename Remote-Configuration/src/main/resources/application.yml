@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: Remote-Configuration
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitlab.cc-asp.fraunhofer.de/riz71864/remote-configuration.git
+          default-label: main
+          username: riz71864
+          password: 6O4gL§/u4e
+          clone-on-start: true
